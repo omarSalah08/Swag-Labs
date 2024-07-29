@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="148.925">
+    <testcase classname="Login | user can login to the website" name="user can login with a valid username and password" time="14.912">
+        <system-out><![CDATA[Given user enter "standard_user" and "secret_sauce".........................passed
+When user click login button................................................passed
+Then user login successfully................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can login with a valid username and password 2" time="12.353">
+        <system-out><![CDATA[Given user enter "problem_user" and "secret_sauce"..........................passed
+When user click login button................................................passed
+Then user login successfully................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can login with a valid username and password 3" time="11.731">
+        <system-out><![CDATA[Given user enter "error_user" and "secret_sauce"............................passed
+When user click login button................................................passed
+Then user login successfully................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can login with a valid username and password 4" time="11.18">
+        <system-out><![CDATA[Given user enter "visual_user" and "secret_sauce"...........................passed
+When user click login button................................................passed
+Then user login successfully................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can login with a valid username and password 5" time="18.911">
+        <system-out><![CDATA[Given user enter "performance_glitch_user" and "secret_sauce"...............passed
+When user click login button................................................passed
+Then user login successfully................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can't login with valid username and invalid password" time="11.195">
+        <system-out><![CDATA[Given user enter "standard_user" and "invalid_sauce"........................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can't login with invalid username and valid password" time="11.547">
+        <system-out><![CDATA[Given user enter "invalid_user" and "secret_sauce"..........................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can't login with invalid username and invalid password" time="11.664">
+        <system-out><![CDATA[Given user enter "invalid_user" and "invalid_sauce".........................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can't login with empty username and valid password" time="11.157">
+        <system-out><![CDATA[Given user enter "" and "secret_sauce"......................................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can't login with valid username and empty password" time="11.212">
+        <system-out><![CDATA[Given user enter "standard_user" and "".....................................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can't login with empty username and empty password" time="11.386">
+        <system-out><![CDATA[Given user enter "" and ""..................................................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login | user can login to the website" name="user can be locked out with valid username and password" time="11.475">
+        <system-out><![CDATA[Given user enter "locked_out_user" and "secret_sauce".......................passed
+When user click login button................................................passed
+Then user can't login.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
